@@ -6,7 +6,7 @@
 /*   By: bkaztaou <bkaztaou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 20:02:29 by bkaztaou          #+#    #+#             */
-/*   Updated: 2024/07/18 05:52:47 by bkaztaou         ###   ########.fr       */
+/*   Updated: 2024/07/18 10:01:32 by bkaztaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@ int main() {
         
         Bureaucrat b("Badreddin", 40);
         b.decrementGrade();
-        // b.incrementGrade();
-        // b.incrementGrade();
-        // b.incrementGrade();
+        b.incrementGrade();
+        b.incrementGrade();
+        b.incrementGrade();
         
         std::cout << b << std::endl;
         b.signForm(f);

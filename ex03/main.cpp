@@ -6,7 +6,7 @@
 /*   By: bkaztaou <bkaztaou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 20:02:29 by bkaztaou          #+#    #+#             */
-/*   Updated: 2024/07/18 06:42:04 by bkaztaou         ###   ########.fr       */
+/*   Updated: 2024/07/18 10:30:50 by bkaztaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ int main() {
         Intern someRandomIntern;
         AForm* rrf;
         rrf = someRandomIntern.makeForm("robotomy request", "Bender");
+        std::cout << *rrf << std::endl;
     } catch (std::exception & e) {
         std::cout << e.what() << std::endl;
     } 

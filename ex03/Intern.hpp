@@ -6,7 +6,7 @@
 /*   By: bkaztaou <bkaztaou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/18 03:55:26 by bkaztaou          #+#    #+#             */
-/*   Updated: 2024/07/18 06:36:42 by bkaztaou         ###   ########.fr       */
+/*   Updated: 2024/07/18 11:01:08 by bkaztaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,8 @@
 
 #include <iostream>
 #include <string>
+#include <map>
+#include <functional>
 #include "AForm.hpp"
 
 class Intern {

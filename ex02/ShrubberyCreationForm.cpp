@@ -6,7 +6,7 @@
 /*   By: bkaztaou <bkaztaou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/09 16:17:34 by bkaztaou          #+#    #+#             */
-/*   Updated: 2024/07/18 06:31:34 by bkaztaou         ###   ########.fr       */
+/*   Updated: 2024/07/18 10:26:23 by bkaztaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ void    ShrubberyCreationForm::execute(Bureaucrat const & executor) const {
     std::string filename = _target + "_shrubbery";
     std::ofstream outfile;
 
-    outfile.open(filename);
+    outfile.open(filename.c_str());
 
     if (!outfile.is_open()) {
         std::cout << "Error: could not open file" << std::endl;
@@ -48,7 +48,7 @@ void    ShrubberyCreationForm::execute(Bureaucrat const & executor) const {
 
     std::string tree = "";
     
-    tree += "      v .   ._, |_  .,            \n";
+    tree += "      \\ .   ._, |_  .,            \n";
     tree += "       `-._\\/  .  \\ /    |/_    \n";
     tree += "           \\  _\\, y | \\//      \n";
     tree += "     _\\_.___\\, \\/ -.\\||       \n";

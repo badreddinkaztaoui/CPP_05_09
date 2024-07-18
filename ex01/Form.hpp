@@ -6,7 +6,7 @@
 /*   By: bkaztaou <bkaztaou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 20:31:58 by bkaztaou          #+#    #+#             */
-/*   Updated: 2024/07/18 05:40:44 by bkaztaou         ###   ########.fr       */
+/*   Updated: 2024/07/18 10:23:28 by bkaztaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ class Bureaucrat;
 class Form {
 private:
     const std::string _name;
-    bool _signed;
     const int _signGrade;
     const int _execGrade;
+    bool _signed;
 public:
     Form();
     Form(std::string const name, int signGrade, int execGrade);
